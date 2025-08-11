@@ -1,5 +1,5 @@
 {% set name = "exejs" %}
-{% set version = "0.0.4" %}
+{% set version = "0.0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/exejs-{{ version }}.tar.gz
-  sha256: 7e747c076ffc650e42a30db14772d09bfe45fccc167d70dbf1d4ab81f9d9f0cc
+  sha256: 1f1a1b770b09bfe3a8a4739e173b9b039f11f769568593f3a0c5a065246579d6
 
 build:
   noarch: python
